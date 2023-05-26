@@ -1,0 +1,120 @@
+@import "./vars";
+
+.banner {
+    position: relative;
+    height: calc(100vh - 170px);
+}
+
+.header_img {
+    height: 100%;
+    width: 100%;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        object-position: center;
+    }
+}
+
+.header {
+    display: grid;
+    gap: 20px;
+    top: 300px;
+    color: white;
+    position: absolute;
+    letter-spacing: 1px;
+    top: 50%;
+    left: 15%;
+    transform: translate(-0%, -50%);
+
+    @media screen and (max-width: $desktop-1000) {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background: $secundary-color-light-transparent;
+        border-radius: 5px;
+        padding: 40px;
+    }
+
+    h1 {
+        position: relative;
+        font-size: 60px;
+        color: black;
+
+        @media screen and (max-width: $tablet_700) {
+            font-size: 40px;
+        }
+    }
+
+    p {
+        color: #666666;
+        line-height: 30px;
+    }
+
+    span{
+        background: #d3e9fb;
+        color: $primary-color-light;
+        padding: 10px;
+    }
+
+    @media screen and (max-width: $desktop-1000) {
+
+        h1 {
+            top: unset;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.btn-header {
+    a{
+        background: $primary-color-light;
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    a:hover {
+        background: $primary-color-dark;
+    }
+}
+
+.arrow_right {
+    background: $primary-color-light;
+    position: absolute;
+    border-radius: 5px 0px 0px 5px;
+    top: 45%;
+    right: 0;
+
+    svg {
+        fill: white;
+    }
+}
+
+.arrow_right:hover {
+    background: $primary-color-dark;
+    cursor: pointer;
+}
+
+.arrow_left {
+    background: $primary-color-light;
+    position: absolute;
+    border-radius: 0px 5px 5px 0px;
+    top: 45%;
+    left: 0;
+
+    svg {
+        fill: white;
+    }
+}
+
+.arrow_left:hover {
+    background: $primary-color-dark;
+    cursor: pointer;
+}

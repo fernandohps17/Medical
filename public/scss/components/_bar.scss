@@ -1,0 +1,28 @@
+@import "./vars";
+
+.bar_socios {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+
+    @media screen and (max-width: $desktop-1300) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media screen and (max-width: $tablet-880) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: $mobile-500) {
+        grid-template-columns: 1fr;
+    }
+
+    img {
+        width: 170px;
+        height: 70px;
+    }
+}

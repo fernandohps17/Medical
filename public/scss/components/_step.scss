@@ -1,0 +1,109 @@
+@import "./vars";
+
+.bg_step {
+    background: url(/public/img/medical-home-header-step.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: $tablet-700) {
+        background: none;
+    }
+}
+
+.step {
+    display: grid;
+    gap: 50px;
+    // justify-content: center;
+    // align-items: center;
+    // text-align: center;
+    margin: 70px 0;
+}
+
+.step_title {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+.step_content {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @media screen and (max-width: $desktop-1200) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: $tablet-700) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.step_content_article {
+    display: grid;
+    gap: 10px;
+}
+
+.step_content_article_img {
+    position: relative;
+
+    p {
+        position: absolute;
+        top: 0;
+        left: 20%;
+        background: $primary-color-light;
+        color: white;
+        padding: 15px;
+        border-radius: 50%;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.step_content_article_text {
+    display: grid;
+    gap: 10px;
+
+    h2 {
+        letter-spacing: 1px;
+
+    }
+
+    p {
+        letter-spacing: 1px;
+        line-height: 24px;
+        color: $subtitle;
+    }
+}
+
+.step_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    a {
+        background: $primary-color-light;
+        padding: 20px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background: $primary-color-dark;
+    }
+}

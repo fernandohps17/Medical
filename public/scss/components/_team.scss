@@ -1,0 +1,79 @@
+@import "./vars";
+
+.bg_team {
+    background: #f2f2f2;
+}
+
+.team {
+    margin: 70px 0;
+}
+
+.team_title {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+.team_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    gap: 30px;
+
+    @media screen and (max-width: $desktop-1500) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: $desktop-1000) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.team_content_article {
+    position: relative;
+
+    img {
+        max-width: 400px;
+        max-height: 500px;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.team_content_article_content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    background: white;
+    width: 300px;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #8a8a8a;
+
+    @media screen and (max-width: $mobile-500) {
+        width: 200px;
+    }
+
+    h2 {
+        font-weight: 200;
+    }
+
+    p{
+        color: $primary-color-light;
+    }
+}
