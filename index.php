@@ -5,7 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/css/home.css">
+    <meta name="theme-color" content="#14457b">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriend" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="En Medical nos encargamos de salud.">
+
+    <link rel="stylesheet" href="./public/css/home.css">
+    <link rel="canonical" href="https://www.medical.com/">
+
+    <link rel="apple-touch-icon" href="/public/icon/favicon.ico">
+    <link rel="apple-touch-startup-image" href="/public/icon/favicon.ico">
+    <link rel="icon" href="/public/icon/favicon.ico">
+
     <title>Medical</title>
 </head>
 
@@ -774,15 +787,21 @@
                             <p>Contact Us</p>
                         </div>
                         <div class="footer_contact_icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"><path d="M795 936q-122 0-242.5-60T336 720q-96-96-156-216.5T120 261q0-19.286 12.857-32.143T165 216h140q13.611 0 24.306 9.5Q340 235 343 251l27 126q2 14-.5 25.5T359 422L259 523q56 93 125.5 162T542 802l95-98q10-11 23-15.5t26-1.5l119 26q15.312 3.375 25.156 15.188Q840 740 840 756v135q0 19.286-12.857 32.143T795 936ZM229 468l81-82-23-110H180q0 39 12 85.5T229 468Zm369 363q41 19 89 31t93 14V769l-103-21-79 83ZM229 468Zm369 363Z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                                <path d="M795 936q-122 0-242.5-60T336 720q-96-96-156-216.5T120 261q0-19.286 12.857-32.143T165 216h140q13.611 0 24.306 9.5Q340 235 343 251l27 126q2 14-.5 25.5T359 422L259 523q56 93 125.5 162T542 802l95-98q10-11 23-15.5t26-1.5l119 26q15.312 3.375 25.156 15.188Q840 740 840 756v135q0 19.286-12.857 32.143T795 936ZM229 468l81-82-23-110H180q0 39 12 85.5T229 468Zm369 363q41 19 89 31t93 14V769l-103-21-79 83ZM229 468Zm369 363Z" />
+                            </svg>
                             <p>+1800-001-658</p>
                         </div>
                         <div class="footer_contact_icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"><path d="M140 896q-24 0-42-18t-18-42V316q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm340-302L140 371v465h680V371L480 594Zm0-60 336-218H145l335 218ZM140 371v-55 520-465Z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                                <path d="M140 896q-24 0-42-18t-18-42V316q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm340-302L140 371v465h680V371L480 594Zm0-60 336-218H145l335 218ZM140 371v-55 520-465Z" />
+                            </svg>
                             <p>Info@Peacefulthemes.Com</p>
                         </div>
                         <div class="footer_contact_icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"><path d="M480.089 566Q509 566 529.5 545.411q20.5-20.588 20.5-49.5Q550 467 529.411 446.5q-20.588-20.5-49.5-20.5Q451 426 430.5 446.589q-20.5 20.588-20.5 49.5Q410 525 430.589 545.5q20.588 20.5 49.5 20.5ZM480 897q133-121 196.5-219.5T740 504q0-117.79-75.292-192.895Q589.417 236 480 236t-184.708 75.105Q220 386.21 220 504q0 75 65 173.5T480 897Zm0 79Q319 839 239.5 721.5T160 504q0-150 96.5-239T480 176q127 0 223.5 89T800 504q0 100-79.5 217.5T480 976Zm0-472Z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                                <path d="M480.089 566Q509 566 529.5 545.411q20.5-20.588 20.5-49.5Q550 467 529.411 446.5q-20.588-20.5-49.5-20.5Q451 426 430.5 446.589q-20.5 20.588-20.5 49.5Q410 525 430.589 545.5q20.588 20.5 49.5 20.5ZM480 897q133-121 196.5-219.5T740 504q0-117.79-75.292-192.895Q589.417 236 480 236t-184.708 75.105Q220 386.21 220 504q0 75 65 173.5T480 897Zm0 79Q319 839 239.5 721.5T160 504q0-150 96.5-239T480 176q127 0 223.5 89T800 504q0 100-79.5 217.5T480 976Zm0-472Z" />
+                            </svg>
                             <p>Themeforest, Envato HQ 24 Fifth st.</p>
                         </div>
                     </div>

@@ -2,10 +2,12 @@
     <div class="content">
         <nav class="nav">
             <div class="nav_logo">
-                <picture class="picture-defer">
-                    <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="/public/img/medical-home-logo.webp">
-                    <img class="image" src="/public/img/default.png" data-img="/public/img/medical-home-logo.png" alt="SoftFem agencia de programacion" title="SoftFem agencia de programacion" width="100" height="100">
-                </picture>
+                <a href="/">
+                    <picture class="picture-defer">
+                        <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="/public/img/medical-home-logo.webp">
+                        <img class="image" src="/public/img/default.png" data-img="/public/img/medical-home-logo.png" alt="SoftFem agencia de programacion" title="SoftFem agencia de programacion" width="100" height="100">
+                    </picture>
+                </a>
             </div>
             <div class="toggle">
                 <svg xmlns="http://www.w3.org/2000/svg" id="openMenu" height="48" width="48">
