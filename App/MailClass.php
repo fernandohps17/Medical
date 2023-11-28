@@ -28,7 +28,7 @@ class MailClass
     $this->configMail->Port       = $this->port;
     $this->configMail->CharSet    = $this->charset;
     $this->configMail->isHTML(true);
-    $this->configMail->setFrom('formularios@servynet.es', 'Consulta la WEB www.medical.com');
+    $this->configMail->setFrom('formularios@servynet.es', 'Consulta la WEB medical.com');
     $this->configMail->AddAddress('fernandohps17@gmail.com');
     // $this->configMail->AddAddress('info@servynet.es');
   }
@@ -37,7 +37,7 @@ class MailClass
   public function contacto($data)
   {
     try {
-      $this->configMail->Subject = "CONTACTO DEL CLIENTE: " . $data['name'] . " ( " . $data['tel'] . " ) -  https://www.medical.com/";
+      $this->configMail->Subject = "CONTACTO DEL CLIENTE: " . $data['name'] . " ( " . $data['tel'] . " ) -  https://medical.com/";
       $this->configMail->Body    =
         "	
       <html>
@@ -45,13 +45,13 @@ class MailClass
           <title>HTML</title>
         </head>
         <body>
-          <a href='https://www.medical.com/'>
-          <img src='https://www.medical.com/public/img/medical_logo.jpg' alt='logo' title='logo'>
+          <a href='https://medical.com/'>
+          <img src='https://medical.com/public/img/medical_logo.jpg' alt='logo' title='logo'>
           </a>
           <h1>El siguiente cliente ha realizado un contacto:</h1>
           <p> </p>
 
-          <h2>WEB: https://www.medical.com/</h2>
+          <h2>WEB: https://medical.com/</h2>
           <p> </p>	  
           <p><strong>Nombre: </strong>" . $data['name'] . "</p>
           <p><strong>Email: </strong>" . $data['email'] . "</p>

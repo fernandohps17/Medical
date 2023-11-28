@@ -13,7 +13,7 @@
     <meta name="description" content="En Medical nos encargamos de salud.">
 
     <link rel="stylesheet" href="./public/css/home.css">
-    <link rel="canonical" href="https://www.medical.com/">
+    <link rel="canonical" href="https://medical.com/">
 
     <link rel="apple-touch-icon" href="/public/icon/favicon.ico">
     <link rel="apple-touch-startup-image" href="/public/icon/favicon.ico">

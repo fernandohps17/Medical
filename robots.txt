@@ -3,4 +3,4 @@ Disallow: /App/
 Disallow: /contact/
 Disallow: /public/
 
-Sitemap: https://www.madical.com/sitemap.xml
+Sitemap: https://madical.com/sitemap.xml
