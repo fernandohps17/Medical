@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="description" content="En Medical nos encargamos de tu salud.">
     <link rel="stylesheet" href="./public/css/home.css">
-    <link rel="canonical" href="https://medical.com/">
+    <link rel="canonical" href="https://medical.com/home/">
     <link rel="apple-touch-icon" href="/public/icon/favicon.ico">
     <link rel="apple-touch-startup-image" href="/public/icon/favicon.ico">
     <link rel="icon" href="/public/icon/favicon.ico">
@@ -23,9 +24,77 @@
         <?php
         require_once "./comons/btn_top.php";
         require_once "./comons/bar_top.php";
-        require_once "./comons/nav.php";
-        require_once "./comons/header.php";
         ?>
+
+        <div class="container">
+            <div class="content">
+                <nav class="nav">
+                    <div class="nav_logo">
+                        <a href="/">
+                            <picture class="picture-defer">
+                                <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="/public/img/medical-home-logo.webp">
+                                <img class="image" src="/public/img/default.png" data-img="/public/img/medical-home-logo.png" alt="SoftFem agencia de programacion" title="SoftFem agencia de programacion" width="100" height="100">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="openMenu" height="48" width="48">
+                            <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
+                        </svg>
+                    </div>
+                    <div class="nav_enlaces" id="menuMobile">
+                        <p class="closeMenu" id="closeMenu">X</p>
+                        <a href="/">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#portafolio">Portafolio</a>
+                        <a href="#team">Team</a>
+                        <div class="nav_search">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+                                <path d="M796 935 533 672q-30 26-69.959 40.5T378 727q-108.162 0-183.081-75Q120 577 120 471t75-181q75-75 181.5-75t181 75Q632 365 632 471.15 632 514 618 554q-14 40-42 75l264 262-44 44ZM377 667q81.25 0 138.125-57.5T572 471q0-81-56.875-138.5T377 275q-82.083 0-139.542 57.5Q180 390 180 471t57.458 138.5Q294.917 667 377 667Z" />
+                            </svg>
+                        </div>
+                        <div class="nav_btn">
+                            <a href="">Appointments</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="banner">
+            <div class="header">
+                <p id="subtitleTop"><span>PASSION FOR CARING</span></p>
+                <section>
+                    <header>
+                        <h1 id="title">Genuine Commitment <br> To Your Health</h1>
+                    </header>
+                </section>
+                <p id="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, <br> rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, rerum.</p>
+                <div class="btn-header">
+                    <br>
+                    <a href="">READ MORE +</a>
+                </div>
+            </div>
+            <div class="header_img">
+                <picture>
+                    <source id="sourceMobile" media="(max-width: 700px)" srcset="/public/img/medical-home-header-slides-1-mobile.webp">
+                    <source id="sourceDes" type='image/webp' srcset="/public/img/medical-home-header-slides-1.webp">
+                    <img id="imageDes" class="imageSlider" src="/public/img/medical-home-header-slides-1.jpg" alt="Medical centro hospitalario" title="Medical centro hospitalario" width="100" height="100">
+                </picture>
+            </div>
+            <div class="arrow_right" id="arrow_right">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                    <path d="m18.75 36-2.15-2.15 9.9-9.9-9.9-9.9 2.15-2.15L30.8 23.95Z" />
+                </svg>
+            </div>
+            <div class="arrow_left" id="arrow_left">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                    <path d="M28.05 36 16 23.95 28.05 11.9l2.15 2.15-9.9 9.9 9.9 9.9Z" />
+                </svg>
+            </div>
+        </div>
+
         <!-- Section Article Top -->
         <div class="container bg_section">
             <div class="content">
@@ -41,12 +110,12 @@
                         <div class="article_content_text">
                             <section class="article_content_text_title">
                                 <header>
-                                    <h2>Casos de Emergencias</h2>
+                                    <h2>Emergency Cases</h2>
                                 </header>
                             </section>
                         </div>
                         <div class="article_content_text_subtitle">
-                            <p>Hay muchas variaciones de pasajes de Lorem Ipsum disponibles, pero la mayoría han sufrido alteraciones de alguna forma.</p>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
                         </div>
                         <div class="article_content_contact">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
@@ -66,12 +135,12 @@
                         <div class="article_content_text">
                             <section class="article_content_text_title">
                                 <header>
-                                    <h2>Horario de los doctores</h2>
+                                    <h2>Doctors Timetable</h2>
                                 </header>
                             </section>
                         </div>
                         <div class="article_content_text_subtitle">
-                            <p>Hay muchas variaciones de pasajes de Lorem Ipsum disponibles, pero la mayoría han sufrido alteraciones de alguna forma.</p>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
                         </div>
                         <div class="article_content_btn">
                             <a href="">TIMETABLE</a>
@@ -88,15 +157,15 @@
                         <div class="article_content_text">
                             <section class="article_content_text_title">
                                 <header>
-                                    <h2>Horario de apertura</h2>
+                                    <h2>Opening Hours</h2>
                                 </header>
                             </section>
                         </div>
                         <div class="article_content_text_subtitle">
-                            <p>Hay muchas variaciones de pasajes de Lorem Ipsum disponibles, pero la mayoría han sufrido alteraciones de alguna forma.</p>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
                         </div>
                         <div class="article_content_text_subtitle">
-                            <p>Lunes - Viernes (7:00am - 8:00pm)</p>
+                            <p>Monday - Friday (7:00am - 8:00pm)</p>
                         </div>
                     </div>
                 </div>
@@ -117,15 +186,15 @@
 
                     <div class="section_info_content">
                         <div class="section_info_content_subtitle">
-                            <p><span>¿Y NOSOTROS?</span></p>
+                            <p><span>WHAT ABOUT US</span></p>
                         </div>
                         <section class="section_info_content_title">
                             <header>
-                                <h2>El corazón y la ciencia de la prueba médica</h2>
+                                <h2>The Heart And Science Of Medic Test</h2>
                             </header>
                         </section>
                         <div class="section_info_content_subtitle">
-                            <p>Es un hecho comprobado que el lector se distraerá con el diseño. Lorem Ipsum es simplemente un texto de relleno de las imprentas y archivos de texto.</p>
+                            <p>It is a long established fact that a reader will be distracted by at its layout. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
 
                         <!-- Section list -->
@@ -133,25 +202,25 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                                 <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                             </svg>
-                            <p>Servicios integrales para pacientes hospitalizados</p>
+                            <p>Comprehensive Inpatient Services</p>
                         </div>
                         <div class="section_info_content_list">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                                 <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                             </svg>
-                            <p>Servicios médicos y quirúrgicos</p>
+                            <p>Medical And Surgical Services</p>
                         </div>
                         <div class="section_info_content_list">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                                 <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                             </svg>
-                            <p>Servicios ambulatorios</p>
+                            <p>Outpatient Services</p>
                         </div>
                         <div class="section_info_content_list">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                                 <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                             </svg>
-                            <p>Medicina e instrumentos</p>
+                            <p>Medicine & instrument</p>
                         </div>
                         <div class="section_info_content_list">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
@@ -163,11 +232,11 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
                                 <path d="M378 810 154 586l43-43 181 181 384-384 43 43-427 427Z" />
                             </svg>
-                            <p>Servicio de Soporte Especializado</p>
+                            <p>Instant Operation & Appointment</p>
                         </div><br>
 
                         <div class="section_info_content_btn">
-                            <a href="">LEER MÁS +</a>
+                            <a href="">READ MORE +</a>
                         </div>
                     </div>
                 </div>
@@ -662,12 +731,6 @@
         <div class="container bg_form">
             <div class="content">
                 <div class="form">
-                    <!-- <div class="form_img">
-                        <picture class="picture-defer">
-                            <source class="image source" type='image/webp' srcset="/public/img/default.png" data-img="/public/img/medical-home-header-from.webp">
-                            <img class="image" src="/public/img/default.png" data-img="/public/img/medical-home-header-from.png" alt="Medical Centro Hospitalario" title="Medical Centro Hospitalario" width="100" height="100">
-                        </picture>
-                    </div> -->
                     <div class="form_input">
                         <section class="form_input_title">
                             <p><span>APPOINTMENT</span></p>

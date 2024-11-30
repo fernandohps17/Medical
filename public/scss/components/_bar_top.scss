@@ -80,3 +80,18 @@
         }
     }
 }
+
+.bar_top_bilingue {
+    display: flex;
+    gap: 20px;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    img {
+        width: 30px;
+        height: 20px;
+    }
+}
